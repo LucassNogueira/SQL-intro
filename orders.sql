@@ -20,3 +20,6 @@ SELECT * FROM orders;
 
 
 SELECT SUM(quantity) FROM orders;
+
+
+SELECT SUM(product_price*quantity) FROM orders;
