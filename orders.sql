@@ -17,3 +17,6 @@ VALUES (1, 'Mic', 50.99, 2),
 
 
 SELECT * FROM orders;
+
+
+SELECT SUM(quantity) FROM orders;
