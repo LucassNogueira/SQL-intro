@@ -20,3 +20,6 @@ ORDER BY height DESC;
 
 SELECT * FROM person
 ORDER BY height ASC;
+
+SELECT * FROM person
+ORDER BY age DESC;
