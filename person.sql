@@ -16,4 +16,7 @@ VALUES ('Eric', 28, 182.88, 'Dallas', 'Blue'),
 ('Ryan', 30, 177.80, 'Dallas', 'Blue');
 
 SELECT * FROM person
-ORDER BY height DESC
+ORDER BY height DESC;
+
+SELECT * FROM person
+ORDER BY height ASC;
