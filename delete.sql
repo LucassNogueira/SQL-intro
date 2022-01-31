@@ -19,3 +19,7 @@ WHERE type = 'lion';
 DELETE
 FROM animals
 WHERE name ILIKE 'M%';
+
+DELETE
+FROM animals
+WHERE age < 9
