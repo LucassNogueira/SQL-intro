@@ -14,3 +14,8 @@ age INT
 DELETE
 FROM animals
 WHERE type = 'lion';
+
+
+DELETE
+FROM animals
+WHERE name ILIKE 'M%';
