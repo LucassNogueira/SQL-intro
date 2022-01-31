@@ -5,3 +5,7 @@ WHERE billing_country = 'USA';
 SELECT MAX(total) FROM invoice;
 
 SELECT MIN(total) FROM invoice;
+
+SELECT COUNT(*)
+FROM invoice
+WHERE total >5 ;
