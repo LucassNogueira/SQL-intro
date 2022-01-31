@@ -29,7 +29,7 @@ SELECT * FROM person
 WHERE age > 20;
 
 SELECT * FROM person
-WHERE age = 20;
+WHERE age = 18;
 
 SELECT * FROM person
 WHERE age < 20 AND age > 30;
@@ -49,3 +49,7 @@ WHERE favoirite_color IN ('Orange','Green');
 
 SELECT * FROM person
 WHERE favoirite_color IN ('Orange','Green','Blue');
+
+
+SELECT * FROM person
+WHERE favoirite_color IN ('Yellow','Purple');
