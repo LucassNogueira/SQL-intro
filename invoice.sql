@@ -17,3 +17,6 @@ WHERE billing_state IN ('CA', 'TX', 'AZ');
 
 
 SELECT AVG(total) FROM invoice;
+
+
+SELECT SUM(total) FROM invoice;
