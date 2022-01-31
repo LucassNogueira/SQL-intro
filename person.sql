@@ -23,3 +23,7 @@ ORDER BY height ASC;
 
 SELECT * FROM person
 ORDER BY age DESC;
+
+
+SELECT * FROM person
+WHERE age > 20
