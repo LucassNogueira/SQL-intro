@@ -14,3 +14,6 @@ VALUES (1, 'Mic', 50.99, 2),
 (2, 'Mic', 50.99, 1),
 (3, 'Mouse', 30.99, 1),
 (4, 'Keyboard', 50.99, 1);
+
+
+SELECT * FROM orders;
