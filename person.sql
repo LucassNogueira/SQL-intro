@@ -26,4 +26,7 @@ ORDER BY age DESC;
 
 
 SELECT * FROM person
-WHERE age > 20
+WHERE age > 20;
+
+SELECT * FROM person
+WHERE age = 20;
