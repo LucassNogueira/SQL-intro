@@ -46,3 +46,6 @@ WHERE favoirite_color != 'Red' AND favoirite_color != 'Blue';
 
 SELECT * FROM person
 WHERE favoirite_color IN ('Orange','Green');
+
+SELECT * FROM person
+WHERE favoirite_color IN ('Orange','Green','Blue');
