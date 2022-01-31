@@ -36,3 +36,7 @@ WHERE age < 20 AND age > 30;
 
 SELECT * FROM person
 WHERE age != 27;
+
+
+SELECT * FROM person
+WHERE favoirite_color != 'Red';
