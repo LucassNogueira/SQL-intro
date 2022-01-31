@@ -6,3 +6,8 @@ VALUES ('Defeater'),
 SELECT * FROM artist
 ORDER BY name DESC
 LIMIT 10;
+
+
+SELECT * FROM artist
+ORDER BY name
+LIMIT 5;
