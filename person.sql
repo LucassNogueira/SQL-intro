@@ -40,3 +40,6 @@ WHERE age != 27;
 
 SELECT * FROM person
 WHERE favoirite_color != 'Red';
+
+SELECT * FROM person
+WHERE favoirite_color != 'Red' AND favoirite_color != 'Blue';
