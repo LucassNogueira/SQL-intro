@@ -8,3 +8,12 @@
 -- ('Nala', 'lion', 2),
 -- ('Marie', 'cat', 1),
 -- ('Flounder', 'fish', 8);
+
+
+
+CREATE TABLE animals (
+id SERIAL PRIMARY KEY,
+name VARCHAR(15),
+ type VARCHAR(15),
+age INT
+);
