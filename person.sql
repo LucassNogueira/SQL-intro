@@ -8,4 +8,12 @@ CREATE TABLE person (
 );
 
 
-INSERT INTO person ()
+INSERT INTO person (person_name,age,height,city,favoirite_color)
+VALUES ('Eric', 28, 182.88, 'Dallas', 'Blue'),
+('Lucas', 27,167.64, 'Arlington', 'Grey'),
+('Dj', 28,180.34,'Denver', 'Red' ),
+('Ben', 25,172.72, NULL, 'Orange'),
+('Ryan', 30, 177.80, 'Dallas', 'Blue');
+
+SELECT * FROM person
+ORDER BY height DESC
