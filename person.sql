@@ -33,3 +33,6 @@ WHERE age = 20;
 
 SELECT * FROM person
 WHERE age < 20 AND age > 30;
+
+SELECT * FROM person
+WHERE age != 27;
