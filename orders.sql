@@ -23,3 +23,6 @@ SELECT SUM(quantity) FROM orders;
 
 
 SELECT SUM(product_price*quantity) FROM orders;
+
+SELECT SUM(product_price*quantity) FROM orders
+WHERE person_id = 2;
